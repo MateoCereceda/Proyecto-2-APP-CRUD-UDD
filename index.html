@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,25 @@
     <title>Aplicación CRUD</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    <h1>Lista de Compras</h1>
-
-    <div id="add-item">
-    <h2>Añadir productos</h2>
-    <input type="text" id="item-input" placeholder="Nombre del elemento">
-    <button onclick="addItem()">Añadir</button>
+    <header>
+        <h1>Lista de Compras</h1>
+    </header>
+    
+    <div class="content">
+        <div id="add-item">
+        <h2>Añadir elemento</h2>
+        <input type="text" id="item-input" placeholder="Nombre del elemento">
+        <button onclick="addItem()">Añadir</button>
+        </div>
+    
+        <div id="items-list">
+        <h2>Compras</h2>
+        <ul id="list"></ul>
+        </div>
     </div>
-
-    <div id="items-list">
-    <h2>Elementos</h2>
-    <ul id="list"></ul>
-    </div>
+    
 
     <script src="./assets/js/main.js"></script>
 </body>
