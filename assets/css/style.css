@@ -92,3 +92,17 @@ li span {
 li button {
     margin-left: 10px;
 }
+
+footer {
+    background-color: #c17c74;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    white-space: nowrap;
+    width: 100%;
+}
+
+footer p {
+    display: inline;
+    margin: 0 5px;
+}
