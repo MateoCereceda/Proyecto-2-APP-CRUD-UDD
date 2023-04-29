@@ -29,6 +29,17 @@ h1 {
 
 #add-item {
     width: 40%;
+    position: relative;
+}
+
+#add-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -20px;
+    bottom: 0;
+    width: 1px;
+    background-color: #a56b68;
 }
 
 #item-input {
